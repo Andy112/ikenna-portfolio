@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /projects/trackulator/
 title: Smart Expense Tracker
 ---
 
