@@ -19,9 +19,9 @@ Click **View Details** to see screenshots, features, and links.
 
   <!-- Project 2 -->
   <div class="project-card">
-    <h3>📰 NewsHub</h3>
-    <p>Clean Android news reader app using Retrofit and Glide, with offline caching.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/newshub">View Details</a>
+    <h3>📰 Link Saver</h3>
+    <p>Save, organize, and share your favorite links — securely. Also lets you download WhatsApp statuses and Instagram stories directly to your device for easy offline access.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/link-saver">View Details</a>
   </div>
 
   <!-- Project 3 -->
