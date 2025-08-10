@@ -1,7 +1,9 @@
 title: "Ikenna — Senior Android Developer"
 description: "Building secure, scalable mobile experiences"
-baseurl: "" 
-url: "https://ikenna-i.github.io/ikenna-portfolio"
+# baseurl: "" 
+# url: "https://ikenna-i.github.io/ikenna-portfolio"
+baseurl: "/ikenna-portfolio"
+url: "https://andy112.github.io"
 
 # Theme
 theme: minima
