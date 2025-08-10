@@ -13,7 +13,7 @@ Click **View Details** to see screenshots, features, and links.
   <!-- Project 1 -->
   <div class="project-card">
     <h3>📱 Smart Expense Tracker</h3>
-    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.<br><br></p>
+    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.<br><br><br></p>
     <a class="btn" href="{{ site.baseurl }}/projects/trackulator">View Details</a>
   </div>
 
