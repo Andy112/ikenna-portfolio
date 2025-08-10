@@ -13,14 +13,14 @@ Click **View Details** to see screenshots, features, and links.
   <!-- Project 1 -->
   <div class="project-card">
     <h3>📱 Smart Expense Tracker</h3>
-    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.</p>
+    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.\n\n</p>
     <a class="btn" href="{{ site.baseurl }}/projects/trackulator">View Details</a>
   </div>
 
   <!-- Project 2 -->
   <div class="project-card">
     <h3>📰 Link Saver</h3>
-    <p>Save, organize, and share your favorite links — securely. Also lets you download WhatsApp statuses and Instagram stories directly to your device for easy offline access.</p>
+    <p>Save, organize, and share your favorite links securely. Also lets you download WhatsApp statuses and Instagram stories directly to your device for easy offline access.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/link-saver">View Details</a>
   </div>
 
