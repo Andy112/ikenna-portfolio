@@ -1,41 +1,84 @@
 ---
 layout: default
 title: Projects
+permalink: /projects/
 ---
 
-# 🚀 My Projects
-
-Here are some of my favorite Android projects.  
-Click **View Details** to see screenshots, features, and links.
+# 💼 Projects
 
 <div class="projects-grid">
 
-  <!-- Project 1 -->
+  <!-- Project Card 1 -->
   <div class="project-card">
-    <h3>📱 Smart Expense Tracker</h3>
-    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/trackulator">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/link-saver-thumb.png" alt="Link Saver Thumbnail">
+    <h2>Link Saver</h2>
+    <p>A robust mobile app for link management, privacy, and social sharing — with built-in WhatsApp status saving.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/link-saver/">View Details</a>
   </div>
 
-  <!-- Project 2 -->
+  <!-- Project Card 2 (Placeholder) -->
   <div class="project-card">
-    <h3>📰 NewsHub</h3>
-    <p>Clean Android news reader app using Retrofit and Glide, with offline caching.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/newshub">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/project2-thumb.png" alt="Project 2 Thumbnail">
+    <h2>Project Two</h2>
+    <p>Short description of your second project goes here.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/project-two/">View Details</a>
   </div>
 
-  <!-- Project 3 -->
+  <!-- Project Card 3 (Placeholder) -->
   <div class="project-card">
-    <h3>🎵 Music Player Pro</h3>
-    <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
-  </div>
-
-  <!-- Project 4 -->
-  <div class="project-card">
-    <h3>📊 Moniepoint Sample App</h3>
-    <p>A sample mobile banking UI demo with login, dashboard, and transaction history.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/moniepoint-sample">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/project3-thumb.png" alt="Project 3 Thumbnail">
+    <h2>Project Three</h2>
+    <p>Short description of your third project goes here.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/project-three/">View Details</a>
   </div>
 
 </div>
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #1f1f1f;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  margin-top: 0.8rem;
+  color: #fff;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  min-height: 50px;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.5rem 1.2rem;
+  background: #00c896;
+  color: #000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-card .btn:hover {
+  background: #00a77d;
+}
+</style>
