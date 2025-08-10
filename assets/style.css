@@ -200,6 +200,7 @@ body.dark i.fab {
   margin: 0 0.7rem;
   padding: 0.75rem 2rem;
   color: white;
+  background: #040273;
   font-weight: 700;
   border-radius: 30px;
   box-shadow: 0 4px 15px rgba(0, 200, 150, 0.5);
