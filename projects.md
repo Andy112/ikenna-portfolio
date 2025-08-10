@@ -5,8 +5,7 @@ title: Projects
 
 # <i class="fas fa-rocket"></i> My Projects
 
-Here are some of my favorite Android projects.  
-Click **View Details** to see screenshots, features, and links.
+Here are some of my favorite Android projects. Click **View Details** to see screenshots, features, and links.
 
 <div class="projects-grid">
 
