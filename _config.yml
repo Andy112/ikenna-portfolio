@@ -1,0 +1,15 @@
+title: "Ikenna — Senior Android Developer"
+description: "Building secure, scalable mobile experiences"
+baseurl: "" 
+url: "https://ikenna-i.github.io/ikenna-portfolio"
+
+# Theme
+theme: minima
+
+# Social links
+github_username: ikenna-i
+linkedin_username: your-linkedin-username
+email: your-email@example.com
+
+# Build settings
+markdown: kramdown
