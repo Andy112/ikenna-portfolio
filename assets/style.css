@@ -332,6 +332,7 @@ section h2 {
   }
   .hero h2 {
     font-size: 1.2rem;
+    text-align: center;
   }
   .hero .tagline {
     font-size: 1rem;
