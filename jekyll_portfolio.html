@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ikenna Portfolio</title>
+  <style>
+    :root {
+      --bg-light: #ffffff;
+      --bg-dark: #1e1e1e;
+      --text-light: #000000;
+      --text-dark: #ffffff;
+      --primary: #007acc;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: background-color 0.3s, color 0.3s;
+    }
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: var(--primary);
+      color: #fff;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    button.toggle {
+      background: none;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ikenna Portfolio</h1>
+    <div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <button class="toggle" onclick="toggleTheme()">Dark Mode</button>
+  </header>
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>[Your bio will go here]</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>Short description of your project goes here.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Title</h3>
+        <p>Short description of your project goes here.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    </section>
+  </main>
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+</body>
+</html>
