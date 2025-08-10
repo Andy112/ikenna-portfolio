@@ -169,7 +169,7 @@ body.dark .project-card {
 }
 
 /* Button */
-.project-card .btn {
+/* .project-card .btn {
   display: inline-block;
   margin-top: 0.8rem;
   padding: 0.48rem 1rem;
@@ -178,7 +178,7 @@ body.dark .project-card {
   color: var(--btn-text, #fff);
   font-weight: 600;
   text-decoration: none;
-}
+} */
 
 /* Hover */
 .project-card:hover {
