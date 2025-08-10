@@ -1,35 +1,45 @@
 ---
 layout: default
 title: Projects
-permalink: /projects/
 ---
 
-# 💼 Projects
+# 🚀 My Projects
+
+Here are some of my favorite Android projects.  
+Click **View Details** to see screenshots, features, and links.
 
 <div class="projects-grid">
 
-  <!-- Project Card 1 -->
+  <!-- Project 1 -->
   <div class="project-card">
-    <img src="{{ site.baseurl }}/assets/images/link-saver-thumb.png" alt="Link Saver Thumbnail">
-    <h2>Link Saver</h2>
-    <p>A robust mobile app for link management, privacy, and social sharing — with built-in WhatsApp status saving.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/link-saver/">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/smart-expense-tracker-thumb.png" alt="Smart Expense Tracker Thumbnail">
+    <h3>📱 Smart Expense Tracker</h3>
+    <p>Android app to track personal expenses, categorize spending, and visualize data with charts.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/trackulator">View Details</a>
   </div>
 
-  <!-- Project Card 2 (Placeholder) -->
+  <!-- Project 2 -->
   <div class="project-card">
-    <img src="{{ site.baseurl }}/assets/images/project2-thumb.png" alt="Project 2 Thumbnail">
-    <h2>Project Two</h2>
-    <p>Short description of your second project goes here.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/project-two/">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/newshub-thumb.png" alt="NewsHub Thumbnail">
+    <h3>📰 NewsHub</h3>
+    <p>Clean Android news reader app using Retrofit and Glide, with offline caching.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/newshub">View Details</a>
   </div>
 
-  <!-- Project Card 3 (Placeholder) -->
+  <!-- Project 3 -->
   <div class="project-card">
-    <img src="{{ site.baseurl }}/assets/images/project3-thumb.png" alt="Project 3 Thumbnail">
-    <h2>Project Three</h2>
-    <p>Short description of your third project goes here.</p>
-    <a class="btn" href="{{ site.baseurl }}/projects/project-three/">View Details</a>
+    <img src="{{ site.baseurl }}/assets/images/music-player-pro-thumb.png" alt="Music Player Pro Thumbnail">
+    <h3>🎵 Music Player Pro</h3>
+    <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="project-card">
+    <img src="{{ site.baseurl }}/assets/images/moniepoint-sample-thumb.png" alt="Moniepoint Sample App Thumbnail">
+    <h3>📊 Moniepoint Sample App</h3>
+    <p>A sample mobile banking UI demo with login, dashboard, and transaction history.</p>
+    <a class="btn" href="{{ site.baseurl }}/projects/moniepoint-sample">View Details</a>
   </div>
 
 </div>
@@ -42,27 +52,26 @@ permalink: /projects/
 }
 
 .project-card {
-  background: #1f1f1f;
   padding: 1rem;
   border-radius: 12px;
+  box-shadow: var(--shadow, 0px 4px 15px rgba(0,0,0,0.1));
+  background: var(--card-bg, var(--background-color));
   text-align: center;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
 }
 
 .project-card img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 0.8rem;
 }
 
-.project-card h2 {
-  margin-top: 0.8rem;
-  color: #fff;
+.project-card h3 {
+  margin-top: 0;
 }
 
 .project-card p {
   font-size: 0.9rem;
-  color: #ccc;
   min-height: 50px;
 }
 
