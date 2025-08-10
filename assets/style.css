@@ -147,12 +147,15 @@ body.dark .project-card {
   transition: width 0.4s ease, height 0.4s ease, opacity 0.6s ease;
 }
 
-/* Font Awesome icons color for light/dark mode */
-.fa {
-  color: #007bff; /* Blue in light mode */
+/* Force Font Awesome icon color for light/dark modes */
+i.fa, i.fas, i.far, i.fab {
+  color: #007bff !important; /* Blue for light mode */
   transition: color 0.3s ease;
 }
 
-body.dark .fa {
-  color: #ffffff; /* White in dark mode */
+body.dark i.fa,
+body.dark i.fas,
+body.dark i.far,
+body.dark i.fab {
+  color: #ffffff !important; /* White for dark mode */
 }
