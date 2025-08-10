@@ -32,7 +32,7 @@ A robust mobile application designed to streamline and enhance your web browsing
 ## 👥 Social & Utility Features
 
 - **Contact Profiles, Stories & Statuses**  
-  Create a Contact Profile and share updates via Stories & Statuses, fostering a sense of community.
+  Save contact profile links and download stories & statuses for easy access anytime.
 
 - **WhatsApp Status Saver & Gallery**  
   Easily save photos and videos from your contacts’ WhatsApp statuses. All saved media is stored within a dedicated in-app gallery.
