@@ -64,7 +64,7 @@ permalink: /about/
   <section class="timeline-section">
     <h2>📈 Experience & Achievements</h2>
     <div class="timeline">
-      <div class="timeline-item">
+      <div class="timeline-item reveal">
         <h3>Founder & Lead Developer</h3>
         <span class="timeline-date">Present</span>
         <p>Built a smart <strong>shopping assistant Android app</strong> with features like shopping list maker, store finder, price comparison, and habit tracking.</p>
