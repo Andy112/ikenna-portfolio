@@ -1,4 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile" class="profile-img">
+      <h2>{{ site.author.name }}</h2>
+      <p class="title">{{ site.author.title }}</p>
+
+      <nav>
+        <ul>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+          <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Right Main Content -->
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en" class="light">
 <head>
   <meta charset="UTF-8">
@@ -103,3 +136,4 @@
   </script>
 </body>
 </html>
+ -->
