@@ -11,8 +11,12 @@
     <!-- Left Sidebar -->
     <aside class="sidebar">
       <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile" class="profile-img">
-      <h2>{{ site.author.name }}</h2>
-      <p class="title">{{ site.author.title }}</p>
+      <div class="author-info">
+        <h2>{{ site.author.name }}</h2>
+        <p>{{ site.author.title }}</p>
+      </div>
+<!--       <h2>{{ site.author.name }}</h2> -->
+<!--       <p class="title">{{ site.author.title }}</p> -->
 
       <nav>
         <ul>
