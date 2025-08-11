@@ -12,17 +12,28 @@ permalink: /about/
     <div class="about-intro">
       <h1>Hi, I’m Ikenna 👋</h1>
       <p>
-        I’m a <strong>Software Engineer</strong> and founder of a tech startup, with 
-        <strong>8+ years of experience in Java</strong> and a strong focus on 
-        <strong>Android development</strong>.
+        I’m a <strong>Software Engineer</strong> with a passion for building intelligent, reliable, and user-focused applications.
+        With over <strong>8 years’ experience</strong> in <strong>Java</strong>, <strong>Kotlin</strong>, and <strong>Android development</strong>,
+        I design solutions that merge clean architecture, scalable systems, and practical business impact.
       </p>
       <p>
-        My work blends <strong>clean architecture</strong>, 
-        <strong>scalable design</strong>, and <strong>real-world problem solving</strong> — 
-        whether I’m crafting a mobile app for everyday users or engineering a complex business tool.
+        My journey has taken me from <strong>enterprise systems</strong> and <strong>FMCG platforms</strong> to <strong>AI-powered mobile apps</strong>,
+        blending strong technical foundations with product vision and business strategy.
       </p>
     </div>
   </div>
+
+  <!-- Key Strengths -->
+  <section class="highlights-section">
+    <h2>💡 Key Strengths</h2>
+    <ul>
+      <li>Proven ability to design, build, and deliver enterprise-grade mobile and web applications.</li>
+      <li>Strong command of object-oriented design, design patterns, and scalable system architecture.</li>
+      <li>Hands-on experience across the full software development lifecycle (SDLC).</li>
+      <li>Track record of solving complex problems under pressure with cost-effective solutions.</li>
+      <li>Excellent collaborator — bridging engineering, UI/UX, and product goals.</li>
+    </ul>
+  </section>
 
   <!-- Skills & Tools -->
   <section class="skills-section">
@@ -31,30 +42,25 @@ permalink: /about/
       <div>
         <h3>Languages & Frameworks</h3>
         <ul>
-          <li>Java</li>
-          <li>Kotlin</li>
-          <li>Android SDK</li>
-          <li>Spring Boot</li>
-          <li>Room Database</li>
-          <li>MVVM</li>
-          <li>Hilt</li>
+          <li>Java, Kotlin, Android SDK</li>
+          <li>Spring Boot, MVVM, Hilt</li>
+          <li>HTML5, CSS, Bootstrap</li>
+          <li>REST APIs, Firebase</li>
         </ul>
       </div>
       <div>
-        <h3>Tools & Platforms</h3>
+        <h3>Databases & Platforms</h3>
         <ul>
-          <li>GitHub</li>
+          <li>SQLite, Room, Realm</li>
+          <li>MySQL, NoSQL</li>
           <li>Google Cloud</li>
-          <li>Firebase</li>
-          <li>SQLite</li>
-          <li>REST APIs</li>
         </ul>
-        <h3>Other Skills</h3>
+        <h3>Other Expertise</h3>
         <ul>
           <li>System Design</li>
           <li>UI/UX Collaboration</li>
-          <li>App Architecture</li>
-          <li>Data Modeling</li>
+          <li>Microservices & Cloud</li>
+          <li>Project Management</li>
         </ul>
       </div>
     </div>
@@ -62,33 +68,43 @@ permalink: /about/
 
   <!-- Experience Timeline -->
   <section class="timeline-section">
-    <h2>📈 Experience & Achievements</h2>
+    <h2>📈 Experience</h2>
     <div class="timeline">
       <div class="timeline-item reveal">
-        <h3>Founder & Lead Developer</h3>
-        <span class="timeline-date">Present</span>
-        <p>Built a smart <strong>shopping assistant Android app</strong> with features like shopping list maker, store finder, price comparison, and habit tracking.</p>
+        <h3>Founder & Lead Developer — Choristera Technologies</h3>
+        <span class="timeline-date">2020 – Present</span>
+        <p>Designed and developed Android and backend systems for retail, event management, crime scene documentation, and SaaS inventory management.</p>
       </div>
       <div class="timeline-item reveal">
-        <h3>Senior Android Developer</h3>
-        <span class="timeline-date">Previous</span>
-        <p>Led mobile development for shipment tracking and FMCG market solutions.</p>
+        <h3>Senior Android Developer — Simplaa Limited, London</h3>
+        <span class="timeline-date">2017 – 2020</span>
+        <p>Built dispatch automation systems, real-time taxi apps, and MCDA-based decision-making tools integrated with Google Maps and cloud services.</p>
       </div>
       <div class="timeline-item reveal">
-        <h3>Mentor & Trainer</h3>
-        <span class="timeline-date">Ongoing</span>
-        <p>Helped junior developers learn MVVM, Room, and clean coding practices.</p>
+        <h3>Software Developer & IT Support — Mottolines Airport Transfer</h3>
+        <span class="timeline-date">2013 – 2015</span>
+        <p>Developed and maintained taxi reservation & dispatch platforms; managed IT operations and internal systems.</p>
       </div>
     </div>
+  </section>
+
+  <!-- Education -->
+  <section class="education-section">
+    <h2>🎓 Education</h2>
+    <ul>
+      <li>M.Sc. Software Engineering (Distinction), University of Greenwich, London, UK</li>
+      <li>Diploma in Software Engineering, New Horizon Institute, Lagos, Nigeria</li>
+      <li>B.Eng. Polymer & Textile Engineering, Federal University of Technology, Owerri, Nigeria</li>
+    </ul>
   </section>
 
   <!-- Fun Facts -->
   <section class="funfacts-section">
     <h2>🎯 Fun Facts</h2>
     <ul>
-      <li>I enjoy turning complex tech problems into simple, elegant solutions.</li>
-      <li>I’m passionate about <strong>AI-powered mobile experiences</strong>.</li>
-      <li>Outside coding, I love brainstorming product ideas over a good cup of coffee.</li>
+      <li>I thrive on turning complex ideas into elegant, simple solutions.</li>
+      <li>Excited about the future of AI in mobile applications.</li>
+      <li>Best ideas happen over a good cup of coffee.</li>
     </ul>
   </section>
 
@@ -96,9 +112,9 @@ permalink: /about/
   <section class="contact-section">
     <h2>📫 Let’s Connect</h2>
     <p>
-      <a href="#">LinkedIn</a> • 
-      <a href="#">GitHub</a> • 
-      <a href="mailto:your@email.com">Email Me</a>
+      <a href="https://www.linkedin.com/in/ikennaigboasoiyi">LinkedIn</a> • 
+      <a href="https://github.com/">GitHub</a> • 
+      <a href="mailto:ikennaigboasoiyi@yahoo.com">Email Me</a>
     </p>
   </section>
 
