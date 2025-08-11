@@ -69,12 +69,12 @@ permalink: /about/
         <span class="timeline-date">Present</span>
         <p>Built a smart <strong>shopping assistant Android app</strong> with features like shopping list maker, store finder, price comparison, and habit tracking.</p>
       </div>
-      <div class="timeline-item">
+      <div class="timeline-item reveal">
         <h3>Senior Android Developer</h3>
         <span class="timeline-date">Previous</span>
         <p>Led mobile development for shipment tracking and FMCG market solutions.</p>
       </div>
-      <div class="timeline-item">
+      <div class="timeline-item reveal">
         <h3>Mentor & Trainer</h3>
         <span class="timeline-date">Ongoing</span>
         <p>Helped junior developers learn MVVM, Room, and clean coding practices.</p>
