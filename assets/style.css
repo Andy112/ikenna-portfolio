@@ -299,7 +299,8 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 }
 
 .sidebar nav ul li.active a {
-  background-color: #ff9800; /* Highlight color */
+/*   background-color: #ff9800;  */
+   background-color: var(--primary-color, #333);
 /*    background: rgba(13,110,253,0.12); */
   color: #000;
   font-weight: bold;
