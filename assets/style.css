@@ -85,10 +85,12 @@ body.dark a { color: #9ec5ff; }
   object-fit:cover;
   border-radius:50%;
   display:block;
+  padding: 8px; 
   margin:0 auto 12px auto;
   box-shadow: 0 6px 18px rgba(0,0,0,0.28);
   border: 2px solid rgba(255,255,255,0.03);
 }
+
 .sidebar h1, .left-pane h1, .sidebar h2 {
   font-size:1.25rem;
   margin-bottom:6px;
