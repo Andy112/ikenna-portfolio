@@ -284,3 +284,12 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   margin: 0;
 }
 
+
+/* Smaller devices: shrink the photo */
+@media (max-width: 768px) {
+  .author-photo {
+    width: 90px;
+    height: 90px;
+    padding: 6px;
+  }
+}
