@@ -418,7 +418,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 /* About Page Styling */
 .about-container {
     padding: 2rem;
-    background-color: #1e1e1e; /* Matches dark theme */
+    background-color: #fff; /* Matches dark theme */
     color: #e0e0e0;
     border-radius: 8px;
     max-width: 900px;
