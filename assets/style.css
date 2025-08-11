@@ -426,3 +426,13 @@ section h2 {
   overflow-y: auto;
 }
 
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+
