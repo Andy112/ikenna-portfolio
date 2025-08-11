@@ -471,7 +471,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 }
 
 .screenshot-gallery img {
-  width: 360px;       /* Standard phone width */
+  width: 300px;       /* Standard phone width */
   height: auto;       /* Keep aspect ratio */
   border-radius: 12px; /* Optional: rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
@@ -481,6 +481,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 .screenshot-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
 }
 
