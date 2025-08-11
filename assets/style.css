@@ -3,7 +3,7 @@
    - Keeps dark sidebar
    - Light main content for readability
    - Preserves existing selectors (.left-pane, .sidebar, .right-pane, .main-content, .content)
-   - Consolidated hero, project-card, projects-grid, etc.
+   - Consolidated hero, project-card, projects-grid, etc. f7f7f8
    =================================================================================== */
 
 /* ----- Variables ----- */
@@ -12,7 +12,7 @@
   --muted-text: #6b7280;
   --sidebar-bg: #222;         /* dark-ish sidebar */
   --sidebar-text: #fff;
-  --content-bg: #f7f7f8;      /* light content background */
+  --content-bg: #fff;      /* light content background */
   --content-text: #1f2937;
   --project-card-bg: rgba(0,0,0,0.03);
 }
@@ -429,7 +429,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 /* Page Heading */
 .about-container h1,
 .about-container h2 {
-    color: #ffffff;
+    color: var(--accent);
     border-bottom: 2px solid #3f3f3f;
     padding-bottom: 0.4rem;
     margin-bottom: 1rem;
