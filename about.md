@@ -8,7 +8,7 @@ permalink: /about/
 
   <!-- Profile Header -->
   <div class="about-header">
-    <img src="/assets/images/profile.jpg" alt="Ikenna I" class="profile-pic">
+<!--     <img src="/assets/images/profile.jpg" alt="Ikenna I" class="profile-pic"> -->
     <div class="about-intro">
       <h1>Hi, I’m Ikenna 👋</h1>
       <p>
