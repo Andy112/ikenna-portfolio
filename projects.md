@@ -11,7 +11,7 @@ Here are some of my favorite Android projects. Click **View Details** to see scr
 
   <!-- Project 1 -->
   <div class="project-card">
-    <h3><i class="fas fa-mobile-alt"></i> Smart Expense Tracker</h3>
+    <h3><i class="fas fa-mobile-alt"></i> MyShoppa</h3>
     <p>Android app to track personal expenses, categorize spending, and visualize data with charts.<br><br></p>
     <a class="btn" href="{{ site.baseurl }}/projects/trackulator">View Details</a>
   </div>
@@ -25,28 +25,28 @@ Here are some of my favorite Android projects. Click **View Details** to see scr
 
   <!-- Project 3 -->
   <div class="project-card">
-    <h3><i class="fas fa-music"></i> Music Player Pro</h3>
+    <h3><i class="fas fa-music"></i>Eveoma</h3>
     <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
   </div>
 
   <!-- Project 4 -->
   <div class="project-card">
-    <h3><i class="fas fa-chart-bar"></i> Moniepoint Sample App</h3>
+    <h3><i class="fas fa-chart-bar"></i>RemindMe</h3>
     <p>A sample mobile banking UI demo with login, dashboard, and transaction history.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/moniepoint-sample">View Details</a>
   </div>
 
    <!-- Project 3 -->
   <div class="project-card">
-    <h3><i class="fas fa-music"></i> Music Player Pro</h3>
+    <h3><i class="fas fa-music"></i>Choristera</h3>
     <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
   </div>
 
   <!-- Project 4 -->
   <div class="project-card">
-    <h3><i class="fas fa-chart-bar"></i> Moniepoint Sample App</h3>
+    <h3><i class="fas fa-chart-bar"></i>Trackulator</h3>
     <p>A sample mobile banking UI demo with login, dashboard, and transaction history.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/moniepoint-sample">View Details</a>
   </div>
