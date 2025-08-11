@@ -13,9 +13,9 @@ A full-featured Android app for tracking and managing personal finances.
 ## 📸 Screenshots
 
 <div class="screenshot-gallery">
-  <img src="{{ site.baseurl }}/assets/images/smart-expense1.png" alt="Smart Expense Screenshot 1">
-  <img src="{{ site.baseurl }}/assets/images/smart-expense2.png" alt="Smart Expense Screenshot 2">
-  <img src="{{ site.baseurl }}/assets/images/smart-expense3.png" alt="Smart Expense Screenshot 3">
+  <img src="{{ site.baseurl }}/assets/images/choristera_img1.jpg" alt="Smart Expense Screenshot 1">
+  <img src="{{ site.baseurl }}/assets/images/choristera_img2.jpg" alt="Smart Expense Screenshot 2">
+  <img src="{{ site.baseurl }}/assets/images/choristera_img3.jpg" alt="Smart Expense Screenshot 3">
 </div>
 
 ---
