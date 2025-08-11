@@ -1,71 +1,127 @@
----
-layout: default
-title: Home
----
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ site.title }}</title>
+<style>
+  body, html {
+    margin: 0; padding: 0; height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  #container {
+    display: flex;
+    height: 100%;
+  }
+  #left-pane {
+    width: 280px;
+    background: #222;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #left-pane img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  #left-pane h1 {
+    margin: 0; font-size: 1.8rem;
+  }
+  #left-pane p.title {
+    margin: 5px 0 20px 0;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #bbb;
+  }
+  #menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  #menu li {
+    margin: 10px 0;
+  }
+  #menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  #menu li a:hover, #menu li a.active {
+    background-color: #007bff;
+  }
+  #right-pane {
+    flex-grow: 1;
+    padding: 30px;
+    overflow-y: auto;
+  }
+</style>
+</head>
+<body>
 
-<section class="hero">
-  <h1>IKENNA IGBOASOIYI</h1>
-  <h2>Software Engineer</h2>
-  <p class="tagline">
-    Competent Software Engineer with proficient knowledge in systems design, software development, and IT consultancy.
-  </p>
-  <div class="hero-cta">
-    <a href="{{ site.baseurl }}/projects" class="btn">View Projects</a>
-    <a href="{{ site.baseurl }}/about" class="btn btn-secondary">About Me</a>
+<div id="container">
+  <div id="left-pane">
+    <img src="/assets/images/profile.jpg" alt="Your Name" />
+    <h1>Your Name</h1>
+    <p class="title">Your Title</p>
+    <ul id="menu">
+      <li><a href="#" data-page="about" class="active">About</a></li>
+      <li><a href="#" data-page="projects">Projects</a></li>
+      <li><a href="#" data-page="contact">Contact</a></li>
+    </ul>
   </div>
-</section>
+  <div id="right-pane">
+    Loading...
+  </div>
+</div>
 
-<section class="about-me">
-  <h2>About Me</h2>
-  <p>
-    Practical skills with full-stack Java programming and Android development. Known for excellent troubleshooting skills and ability to engineer well-researched, cost-effective enterprise solutions.
-    Innovative and result-oriented, able to work under pressure and contribute to best practices, procedures, and policies.
-  </p>
-</section>
+<script>
+  const rightPane = document.getElementById('right-pane');
+  const menuLinks = document.querySelectorAll('#menu a');
 
-<section class="key-skills">
-  <h2>Key Skills</h2>
-  <ul>
-    <li>Strong programming and database concepts</li>
-    <li>Software engineering and project management</li>
-    <li>Object-oriented design and design patterns</li>
-    <li>Effective planning and root cause analysis</li>
-    <li>Excellent communication and team-building</li>
-  </ul>
-</section>
+  // Function to load page content dynamically
+  function loadPage(page) {
+    // Update active menu style
+    menuLinks.forEach(link => {
+      link.classList.toggle('active', link.dataset.page === page);
+    });
 
-<section class="technical-skills">
-  <h2>Technical Skills</h2>
-  <p>
-    Java, Kotlin, Android SDK, Realm DB, SQLite, Firebase, Spring Framework, RESTful APIs, Maven, Gradle, Git, HTML5, CSS3, Bootstrap.
-  </p>
-</section>
+    // Fetch the page content HTML (Assuming you have static HTML partials)
+    fetch(`/pages/${page}.html`)
+      .then(response => {
+        if (!response.ok) throw new Error('Page not found');
+        return response.text();
+      })
+      .then(html => {
+        rightPane.innerHTML = html;
+      })
+      .catch(() => {
+        rightPane.innerHTML = '<p>Failed to load content.</p>';
+      });
+  }
 
-<section class="experience">
-  <h2>Experience Highlights</h2>
-  <h3>Software Engineer & Android Developer — Choristera Technologies (2020 – Present)</h3>
-  <ul>
-    <li>Designed wholesale delivery backend system using Spring Boot.</li>
-    <li>Developed event planning and management system with digital brochure.</li>
-    <li>Built mobile apps for crime scene investigation and offline shopping management.</li>
-  </ul>
+  // Attach click handlers to menu links
+  menuLinks.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const page = e.target.dataset.page;
+      loadPage(page);
+    });
+  });
 
-  <h3>Software Developer — Simplaa Limited, London (2017 – 2020)</h3>
-  <ul>
-    <li>Developed automated dispatch system with Multi Criteria Decision Analysis.</li>
-    <li>Created on-demand taxi app with Google Maps integration and real-time tracking.</li>
-  </ul>
+  // Load default page on load
+  loadPage('about');
+</script>
 
-  <h3>Operations Supervisor & Software Developer — Mottolines Airport Transfer (2013 – 2015)</h3>
-  <ul>
-    <li>Handled IT support and maintained dispatch systems and web applications.</li>
-  </ul>
-</section>
-
-<section class="contact-info">
-  <h2>Contact</h2>
-  <p><strong>Phone:</strong> +2348038524791</p>
-  <p><strong>Email:</strong> <a href="mailto:ikennaigboasoiyi@yahoo.com">ikennaigboasoiyi@yahoo.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ikennaigboasoiyi" target="_blank" rel="noopener noreferrer">linkedin.com/in/ikennaigboasoiyi</a></p>
-  <p><strong>Address:</strong> 6 Gbaja Street, Surulere, Lagos State, Nigeria</p>
-</section>
+</body>
+</html>
