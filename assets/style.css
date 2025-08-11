@@ -470,6 +470,19 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
     text-decoration: underline;
 }
 
+.screenshot-gallery img {
+  width: 360px;       /* Standard phone width */
+  height: auto;       /* Keep aspect ratio */
+  border-radius: 12px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  margin: 10px;
+}
+
+.screenshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 
 /* Smaller devices: shrink the photo */
 @media (max-width: 768px) {
