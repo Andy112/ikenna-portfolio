@@ -360,3 +360,69 @@ section h2 {
   text-align: center;
 }
 
+.two-pane-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  width: 280px;
+  background: #222;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-pane img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.left-pane h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.left-pane p.title {
+  margin: 5px 0 20px 0;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.left-pane nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-pane nav ul li {
+  margin: 10px 0;
+}
+
+.left-pane nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  padding: 8px 15px;
+  border-radius: 6px;
+}
+
+.left-pane nav ul li a:hover,
+.left-pane nav ul li a.active {
+  background-color: #007bff;
+}
+
+.right-pane {
+  flex-grow: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
