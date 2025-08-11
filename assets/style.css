@@ -284,6 +284,25 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   margin: 0;
 }
 
+.sidebar .author-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.sidebar .author-title {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 2px;
+}
+
+.sidebar nav ul li.active a {
+  background-color: #ff9800; /* Highlight color */
+/*    background: rgba(13,110,253,0.12); */
+  color: #000;
+  font-weight: bold;
+}
 
 /* Smaller devices: shrink the photo */
 @media (max-width: 768px) {
@@ -291,5 +310,13 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
     width: 90px;
     height: 90px;
     padding: 6px;
+  }
+}
+/* Very small devices: shrink more */
+@media (max-width: 480px) {
+  .author-photo {
+    width: 70px;
+    height: 70px;
+    padding: 4px;
   }
 }
