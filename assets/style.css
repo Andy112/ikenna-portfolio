@@ -471,18 +471,42 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 }
 
 .screenshot-gallery img {
-  width: 220px;       /* Standard phone width */
-  height: auto;       /* Keep aspect ratio */
-  border-radius: 12px; /* Optional: rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
-  margin: 10px;
+  height: 500px;
+  width: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+  object-fit: contain;
+
+  /* Snap each image into place */
+  scroll-snap-align: start;
 }
 
 .screenshot-gallery {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+
+  /* Scroll Snap */
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  /* Scrollbar styling */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 #f0f0f0;
+}
+
+.screenshot-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+
+.screenshot-gallery::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.screenshot-gallery::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
 }
 
 /* Smaller devices: shrink the photo */
