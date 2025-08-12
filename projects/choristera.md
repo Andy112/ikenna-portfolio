@@ -4,9 +4,10 @@ permalink: /projects/choristera/
 title: Choristera
 ---
 
-# Choristera
+# 📱 Choristera
 
 Choristera is an event and media management app designed for music groups (choirs, bands, artists) for organizing and managing their events and media files.
+
 ---
 
 ## 📸 Screenshots
