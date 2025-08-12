@@ -13,10 +13,10 @@ Event organizer is a mobile app used for creating and planning all kinds of even
 ## 📸 Screenshots
 
 <div class="screenshot-gallery screenshot-gallery-dark">
-  <img src="{{ site.baseurl }}/assets/images/eveoma_img_1" alt="Eveoma Screenshot 1">
-  <img src="{{ site.baseurl }}/assets/images/eveoma_img_2" alt="Eveoma Screenshot 2">
-  <img src="{{ site.baseurl }}/assets/images/eveoma_img_3" alt="Eveoma Screenshot 3">
-  <img src="{{ site.baseurl }}/assets/images/eveoma_img_4" alt="Eveoma Screenshot 4">
+  <img src="{{ site.baseurl }}/assets/images/eveoma_img_1.jpg" alt="Eveoma Screenshot 1">
+  <img src="{{ site.baseurl }}/assets/images/eveoma_img_2.jpg" alt="Eveoma Screenshot 2">
+  <img src="{{ site.baseurl }}/assets/images/eveoma_img_3.jpg" alt="Eveoma Screenshot 3">
+  <img src="{{ site.baseurl }}/assets/images/eveoma_img_4.jpg" alt="Eveoma Screenshot 4">
 </div>
 
 ---
