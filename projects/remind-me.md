@@ -12,7 +12,7 @@ RemindMe is an app used for creating and managing daily reminders for you and ot
 
 ## 📸 Screenshots
 
-<div class="screenshot-gallery">
+<div class="screenshot-gallery screenshot-gallery-dark">
   <img src="{{ site.baseurl }}/assets/images/remind_me_img_1.jpg" alt="RemindMe Screenshot 1">
   <img src="{{ site.baseurl }}/assets/images/remind_me_img_2.jpg" alt="RemindMe Screenshot 2">
   <img src="{{ site.baseurl }}/assets/images/remind_me_img_3.jpg" alt="RemindMe Screenshot 3">
