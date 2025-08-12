@@ -12,7 +12,7 @@
   --muted-text: #6b7280;
   --sidebar-bg: #222;         /* dark-ish sidebar */
   --sidebar-text: #fff;
-  --content-bg: #f7f7f8;      /* light content background */
+  --content-bg: #fff;      /* light content background */
   --content-text: #1f2937;
   --project-card-bg: rgba(0,0,0,0.03);
 }
@@ -475,6 +475,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   width: auto;
   border-radius: 16px;
   flex-shrink: 0;
+  background-color: #1e1e1e;
   object-fit: contain;
 
   /* Snap each image into place */
