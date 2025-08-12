@@ -483,16 +483,16 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 }
 
 .screenshot-gallery-dark {
-  background-color: #222;
+  background-color: #D3D3D3;
+   justify-content: center;
+/*    padding: 20px; */
 }
 
 .screenshot-gallery {
   display: flex;
 /*   background-color: #D3D3D3; */
   gap: 10px;
-  padding: 20px;
   border-radius: 8px;
-  justify-content: center;
   overflow-x: auto;
   padding: 10px 0;
 
