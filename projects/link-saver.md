@@ -13,10 +13,18 @@ A robust mobile application designed to streamline and enhance your web browsing
 ## 📸 Screenshots
 
 <!-- Replace these dummy images with your real screenshots -->
-<img src="{{ site.baseurl }}/assets/images/link_saver_img_1.jpg" alt="Link Saver Screenshot 1" width="300">
-<img src="{{ site.baseurl }}/assets/images/link_saver_img_2.jpg" alt="Link Saver Screenshot 2" width="300">
-<img src="{{ site.baseurl }}/assets/images/link_saver_img_3.jpg" alt="Link Saver Screenshot 3" width="300">
-<img src="{{ site.baseurl }}/assets/images/link_saver_img_4.jpg" alt="Link Saver Screenshot 4" width="300">
+
+<!-- <img src="{{ site.baseurl }}/assets/images/link_saver_img_1.jpg" alt="Link Saver Screenshot 1" width="300"> --> 
+<!-- <img src="{{ site.baseurl }}/assets/images/link_saver_img_2.jpg" alt="Link Saver Screenshot 2" width="300"> -->
+<!-- <img src="{{ site.baseurl }}/assets/images/link_saver_img_3.jpg" alt="Link Saver Screenshot 3" width="300"> -->
+<!-- <img src="{{ site.baseurl }}/assets/images/link_saver_img_4.jpg" alt="Link Saver Screenshot 4" width="300"> -->
+
+<div class="screenshot-gallery">
+  <img src="{{ site.baseurl }}/assets/images/link_saver_img_1.jpg" alt="Link Saver Screenshot 1">
+  <img src="{{ site.baseurl }}/assets/images/link_saver_img_2.jpg" alt="Link Saver Screenshot 2">
+  <img src="{{ site.baseurl }}/assets/images/link_saver_img_3.jpg" alt="Link Saver Screenshot 3">
+  <img src="{{ site.baseurl }}/assets/images/link_saver_img_4.jpg" alt="Link Saver Screenshot 4">
+</div>
 
 ---
 
