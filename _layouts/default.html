@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
+  <style>
+    /* Sidebar submenu styles */
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .submenu {
+      list-style: none;
+      margin: 0;
+      padding-left: 15px;
+      display: none;
+    }
+    .has-submenu.submenu-open > .submenu {
+      display: block;
+    }
+    /* Highlight active submenu item */
+    .submenu li.active > a {
+      color: #00c896;
+      font-weight: 700;
+    }
+    /* Highlight active top-level menu */
+    nav > ul > li.active > a {
+      color: #00c896;
+      font-weight: 700;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <!-- Left Sidebar -->
     <aside class="sidebar">
-      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile" class="profile-img">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile" class="profile-img" />
       <div class="author-info">
         <h2>{{ site.author.name }}</h2>
         <p>{{ site.author.title }}</p>
       </div>
       <nav>
-<!--         <ul>
-          <li><a href="{{ '/about' | relative_url }}">About</a></li>
-          <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-          <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-        </ul> -->
-
         <ul>
+          <li class="{% if page.url contains '/about' %}active{% endif %}">
+            <a href="{{ '/about' | relative_url }}">About Me</a>
+          </li>
           <li class="has-submenu {% if page.url contains '/projects' %}submenu-open{% endif %}">
             <a href="{{ '/projects' | relative_url }}">My Projects</a>
             <ul class="submenu">
@@ -46,8 +69,10 @@
               </li>
             </ul>
           </li>
+          <li class="{% if page.url contains '/contact' %}active{% endif %}">
+            <a href="{{ '/contact' | relative_url }}">Contact Me</a>
+          </li>
         </ul>
-
       </nav>
     </aside>
 
@@ -56,41 +81,16 @@
       {{ content }}
     </main>
   </div>
+
   <script>
-(function () {
-  // respect reduced motion preferences
-  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  if (prefersReduced) {
-    // reveal everything immediately
-    document.querySelectorAll('.reveal').forEach(el => el.classList.add('revealed'));
-    return;
-  }
-
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('revealed');
-        obs.unobserve(entry.target); // reveal once
-      }
-    });
-  }, {
-    threshold: 0.12,
-    rootMargin: '0px 0px -6% 0px'
-  });
-
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-})();
-</script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll(".has-submenu > a").forEach(function(link) {
-        link.addEventListener("click", function(e) {
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".has-submenu > a").forEach(function (link) {
+        link.addEventListener("click", function (e) {
           e.preventDefault();
           this.parentElement.classList.toggle("submenu-open");
         });
       });
     });
-    </script>
+  </script>
 </body>
 </html>
