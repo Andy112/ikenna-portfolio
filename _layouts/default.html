@@ -28,6 +28,14 @@
           </li>
           <li class="{% if page.url contains '/projects' %}active{% endif %}">
             <a href="{{ '/projects' | relative_url }}">My Projects</a>
+            <ul class="submenu">
+              <li><a href="{{ '/projects/my-shoppa' | relative_url }}">MyShoppa</a></li>
+              <li><a href="{{ '/projects/link-saver' | relative_url }}">LinkSaver</a></li>
+              <li><a href="{{ '/projects/choristera' | relative_url }}">Choristera</a></li>
+              <li><a href="{{ '/projects/remind-me' | relative_url }}">RemindMe</a></li>
+              <li><a href="{{ '/projects/eveoma' | relative_url }}">Eveoma</a></li>
+              <li><a href="{{ '/projects/trackulator' | relative_url }}">Trackulator</a></li>
+            </ul>
           </li>
           <li class="{% if page.url contains '/contact' %}active{% endif %}">
             <a href="{{ '/contact' | relative_url }}">Contact Me</a>
