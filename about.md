@@ -12,7 +12,7 @@ permalink: /about/
     <div class="about-intro">
       <h1>Hi, I’m Ikenna 👋</h1>
       <p>
-        I am a competent <strong>Software Engineer</strong with proficient knowledge in systems design, software development and IT consultancy. Practical skills with full-stack java programming and android development. Known for excellent troubleshooting skills, having the ability to analyze code and engineer well-researched, costeffective enterprise solutions. Innovative and result oriented, with the ability to work under pressure. Able to contribute to the development of best practices, procedures and policies within an organization.
+        I am a competent <strong>Software Engineer</strong> with proficient knowledge in systems design, software development and IT consultancy. Practical skills with full-stack java programming and android development. Known for excellent troubleshooting skills, having the ability to analyze code and engineer well-researched, costeffective enterprise solutions. Innovative and result oriented, with the ability to work under pressure. Able to contribute to the development of best practices, procedures and policies within an organization.
         With over <strong>8 years’ experience</strong> in <strong>Java</strong> and <strong>Android development</strong>,
         I design solutions that merge clean architecture, scalable systems, and practical business impact.
       </p>
