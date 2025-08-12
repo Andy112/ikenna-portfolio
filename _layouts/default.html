@@ -26,7 +26,7 @@
           <li class="{% if page.url contains '/about' %}active{% endif %}">
             <a href="{{ '/about' | relative_url }}">About Me</a>
           </li>
-          <li class="{% if page.url contains '/projects' %}active{% endif %}">
+          <li class="has-submenu {% if page.url contains '/projects' %}active{% endif %}">
             <a href="{{ '/projects' | relative_url }}">My Projects</a>
             <ul class="submenu">
               <li><a href="{{ '/projects/my-shoppa' | relative_url }}">MyShoppa</a></li>
