@@ -473,7 +473,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 .screenshot-gallery img {
   height: 500px;
   width: auto;
-  border-radius: 8px;
+  border-radius: 16px;
   flex-shrink: 0;
   object-fit: contain;
 
