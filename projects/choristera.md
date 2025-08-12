@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /projects/trackulator/
+permalink: /projects/choristera/
 title: Choristera
 ---
 
