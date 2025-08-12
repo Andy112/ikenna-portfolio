@@ -518,6 +518,30 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   border-radius: 3px;
 }
 
+/* Submenu styles */
+.sidebar ul .submenu {
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 5px;
+  display: none; /* hidden by default */
+}
+
+.sidebar ul .submenu li a {
+  font-size: 0.9em;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.sidebar ul .submenu li a:hover {
+  color: #fff;
+}
+
+/* Show submenu when parent is active */
+.sidebar ul .has-submenu.active .submenu {
+  display: block;
+}
+
+
 /* Smaller devices: shrink the photo */
 @media (max-width: 768px) {
   .author-photo {
