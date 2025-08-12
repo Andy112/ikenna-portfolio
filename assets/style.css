@@ -518,28 +518,29 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   border-radius: 3px;
 }
 
-/* Submenu styles */
-.sidebar ul .submenu {
+.submenu {
   list-style: none;
+  margin: 0;
   padding-left: 15px;
-  margin-top: 5px;
-  display: none; /* hidden by default */
+  display: none;
 }
 
-.sidebar ul .submenu li a {
-  font-size: 0.9em;
-  color: #ccc;
-  text-decoration: none;
-}
-
-.sidebar ul .submenu li a:hover {
-  color: #fff;
-}
-
-/* Show submenu when parent is active */
-.sidebar ul .has-submenu.active .submenu {
+.has-submenu.submenu-open > .submenu {
   display: block;
 }
+
+/* Highlight active submenu item */
+.submenu li.active > a {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Highlight active top-level menu */
+nav > ul > li.active > a {
+  color: #00c896;
+  font-weight: 700;
+}
+
 
 
 
