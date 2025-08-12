@@ -474,6 +474,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   height: 500px;
   width: auto;
   border-radius: 16px;
+  background: #fff;
   flex-shrink: 0;
   object-fit: contain;
 
@@ -481,10 +482,17 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   scroll-snap-align: start;
 }
 
+.screenshot-gallery-dark {
+  background-color: #222;
+}
+
 .screenshot-gallery {
   display: flex;
-  background-color: #1e1e1e;
+/*   background-color: #D3D3D3; */
   gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: center;
   overflow-x: auto;
   padding: 10px 0;
 
