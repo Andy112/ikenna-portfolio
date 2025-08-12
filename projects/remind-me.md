@@ -22,28 +22,26 @@ RemindMe is an app used for creating and managing daily reminders for you and ot
 ---
 
 ## ✨ Features
-- Smart event organizer
-- Interactive timeline
-- Mp3 player
-- Music library
-- Media archive (cloud based)
-- Music groups
+- Smart reminder
+- Personal diary
+- Daily todos setup
+- Date tracker
+- Accounts & contacts 
 
 ---
 
 ## 🛠 Tech Stack
 - **Language:** Java
-- **Database:** Room
-- **Networking:** Retrofit
+- **Database:** Realm db, Firebase
+- **Networking:** Firebase
 - **UI:** Material Design Components
 
 ---
 
 ## Integrations
-- Lastfm Api for album art retrieval
-- Musixmatch Api for lyrics 
-- Wi-Fi P2P (Wi-Fi Direct) for nearby file sharing
-- Out of the box event playlist in in-app mp3 player
+- Text to speech
+- Alarm manager
+- Push notification
 
 ---
 
