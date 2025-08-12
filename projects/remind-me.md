@@ -7,6 +7,7 @@ title: RemindMe
 # RemindMe
 
 RemindMe is an app used for creating and managing daily reminders for you and others in your contact. You can manage an array of reminders for yourself or for someone else all in one place.
+
 ---
 
 ## 📸 Screenshots
