@@ -25,8 +25,8 @@ Here are some of my favorite Android projects. Click **View Details** to see scr
 
   <!-- Project 3 -->
   <div class="project-card">
-    <h3><i class="fas fa-music"></i>Eveoma</h3>
-    <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
+    <h3><i class="fas fa-music"></i>Choristera</h3>
+    <p>Choristera is a event and media management app designed for music groups (choirs, bands, artists) for organizing and managing their events and media files.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
   </div>
 
@@ -39,7 +39,7 @@ Here are some of my favorite Android projects. Click **View Details** to see scr
 
    <!-- Project 3 -->
   <div class="project-card">
-    <h3><i class="fas fa-music"></i>Choristera</h3>
+    <h3><i class="fas fa-music"></i>Eveoma</h3>
     <p>Feature-rich Android music player with playlists, equalizer, and custom UI.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/music-player-pro">View Details</a>
   </div>
