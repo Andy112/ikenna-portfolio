@@ -6,27 +6,75 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
   <style>
-    /* Sidebar submenu styles */
+    /* Sidebar Menu Base */
     nav ul {
       list-style: none;
       padding-left: 0;
-    }
-    .submenu {
-      list-style: none;
       margin: 0;
-      padding-left: 15px;
-      display: none;
     }
-    .has-submenu.submenu-open > .submenu {
-      display: block;
+    nav > ul > li {
+      margin-bottom: 12px;
     }
-    /* Highlight active submenu item */
-    .submenu li.active > a {
-      color: #00c896;
+
+    /* Main Menu Links */
+    nav > ul > li > a {
+      font-size: 1.15rem;
       font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 10px;
+      transition: color 0.3s ease;
     }
-    /* Highlight active top-level menu */
-    nav > ul > li.active > a {
+    nav > ul > li.active > a,
+    nav > ul > li > a:hover {
+      color: #00c896; /* accent green */
+    }
+
+    /* Arrow Indicator */
+    .has-submenu > a::after {
+      content: "▼";
+      font-size: 0.7rem;
+      color: #888;
+      margin-left: 6px;
+      transition: transform 0.3s ease;
+    }
+    .has-submenu.submenu-open > a::after {
+      transform: rotate(-180deg);
+      color: #00c896;
+    }
+
+    /* Submenu */
+    .submenu {
+      max-height: 0;
+      overflow: hidden;
+      padding-left: 16px;
+      margin-top: 6px;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+      border-left: 2px solid transparent;
+    }
+    .submenu-open > .submenu {
+      max-height: 1000px; /* big enough to show all items */
+      padding-left: 16px;
+      border-left-color: #00c896;
+    }
+
+    /* Submenu links */
+    .submenu li {
+      margin-bottom: 8px;
+    }
+    .submenu li a {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #555;
+      text-decoration: none;
+      transition: color 0.25s ease;
+    }
+    .submenu li a:hover,
+    .submenu li.active > a {
       color: #00c896;
       font-weight: 700;
     }
