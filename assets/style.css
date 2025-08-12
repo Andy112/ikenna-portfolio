@@ -518,25 +518,21 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
   border-radius: 3px;
 }
 
-.submenu {
+/* Submenu styles */
+.sidebar ul .submenu {
   list-style: none;
-  margin: 0;
   padding-left: 15px;
-  display: none;
+  margin-top: 5px;
+  display: none; /* hidden by default */
 }
 
-.has-submenu.active > .submenu {
-  display: block;
-}
-
-/* Optional: style submenu links */
-.submenu li a {
-  font-size: 0.9rem;
+.sidebar ul .submenu li a {
+  font-size: 0.9em;
   color: #ccc;
   text-decoration: none;
 }
 
-.submenu li a:hover {
+.sidebar ul .submenu li a:hover {
   color: #fff;
 }
 
@@ -544,6 +540,7 @@ pre, code { background:#0f1720; color:#f5f7fb; padding:6px 10px; border-radius:6
 .sidebar ul .has-submenu.active .submenu {
   display: block;
 }
+
 
 
 /* Smaller devices: shrink the photo */
