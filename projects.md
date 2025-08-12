@@ -26,14 +26,14 @@ Here are some of my favorite Android projects. Click **View Details** to see scr
   <!-- Project 3 -->
   <div class="project-card">
     <h3><i class="fas fa-music"></i>Choristera</h3>
-    <p>Choristera is a event and media management app designed for music groups (choirs, bands, artists) for organizing and managing their events and media files.</p>
+    <p>Choristera is an event and media management app designed for music groups (choirs, bands, artists) for organizing and managing their events and media files.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/choristera">View Details</a>
   </div>
 
   <!-- Project 4 -->
   <div class="project-card">
     <h3><i class="fas fa-chart-bar"></i>RemindMe</h3>
-    <p>A sample mobile banking UI demo with login, dashboard, and transaction history.</p>
+    <p>RemindMe is an app used for creating and managing daily reminders for you and others in your contact. You can manage an array of reminders for yourself or for someone else all in one place.</p>
     <a class="btn" href="{{ site.baseurl }}/projects/remind-me">View Details</a>
   </div>
 
